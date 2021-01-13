@@ -1,0 +1,98 @@
+PRINT h:
+Dan hotel has:
+4 rooms
+2 occupied rooms
+------------------
+The minibar contains the drinks: ['coke', 'lemonade']
+And the snacks: ['bamba', 'mars']
+The bill for the minibar is: 0.0
+PRINT h:
+Dan hotel has:
+4 rooms
+2 occupied rooms
+------------------
+CALL: h.upgrade("Liat")
+The minibar contains the drinks: ['coke', 'lemonade']
+And the snacks: ['bamba', 'mars']
+The bill for the minibar is: 0.0
+floor: 15
+number: 140
+guests: liat
+clean_level: 5
+rank: 1
+satisfaction: 2.0
+------------------
+CALL: h.check_out("Ronen")
+The minibar contains the drinks: ['coke', 'lemonade']
+And the snacks: ['bamba', 'mars']
+The bill for the minibar is: 0.0
+floor: 12
+number: 101
+guests: empty
+clean_level: 6
+rank: 2
+satisfaction: 1.0
+------------------
+CALL: h.check_out("Ronen")
+None
+------------------
+CALL: h.check_in(["Alice", "Wonder"], 2)
+The minibar contains the drinks: ['coke', 'lemonade']
+And the snacks: ['bamba', 'mars']
+The bill for the minibar is: 0.0
+floor: 12
+number: 101
+guests: alice, wonder
+clean_level: 6
+rank: 2
+satisfaction: 1.0
+------------------
+CALL: h.check_in(["Alex"], 3)
+The minibar contains the drinks: ['coke', 'lemonade']
+And the snacks: ['bamba', 'mars']
+The bill for the minibar is: 0.0
+floor: 2
+number: 23
+guests: alex
+clean_level: 6
+rank: 3
+satisfaction: 1.0
+------------------
+PRINT h:
+Dan hotel has:
+4 rooms
+3 occupied rooms
+------------------
+CALL: h.check_in(["Oded", "Shani"], 3)
+None
+------------------
+CALL: h.check_in(["Oded", "Shani"], 1)
+The minibar contains the drinks: ['coke', 'lemonade']
+And the snacks: ['bamba', 'mars']
+The bill for the minibar is: 0.0
+floor: 1
+number: 2
+guests: oded, shani
+clean_level: 7
+rank: 1
+satisfaction: 1.0
+------------------
+CALL: h.check_out("Liat")
+The minibar contains the drinks: ['coke', 'lemonade']
+And the snacks: ['bamba', 'mars']
+The bill for the minibar is: 0.0
+floor: 15
+number: 140
+guests: empty
+clean_level: 5
+rank: 1
+satisfaction: 2.0
+------------------
+CALL: h.check_out("Liat")
+None
+------------------
+PRINT h:
+Dan hotel has:
+4 rooms
+3 occupied rooms
+------------------
