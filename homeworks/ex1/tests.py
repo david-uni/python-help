@@ -15,7 +15,7 @@
 ###########################################################################
 
 # copy this file to the same directory where you save your file with the solution
-# at the end of this file, you will find a variable named 'file_name', change its's value to your file name (the name of the file containing the solution)
+# almost at the end of this file, you will find a variable named 'file_name', change it's value to your file name (the name of the file containing the solution)
 # run this file and watch the output in the shell
 
 ###########################################################################
@@ -199,6 +199,7 @@ def test_question_5(code, line_break):
 
 def main():
     file_name = 'ex1_012345678.py' # TODO - change the name to your code file name
+    
     line_break_characters = get_platform_break_line_characters()
     code = get_code(file_name)
     questions = []
